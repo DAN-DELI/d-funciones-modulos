@@ -1,0 +1,1 @@
+export { calculaPromedio, analizaAprobacion, mostrarResultado } from './modulo/reto1.js';
