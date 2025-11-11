@@ -15,7 +15,8 @@ export function analizaAprobacion(promedio) {
   }
 }
 
-export function mostrarResultado(promedio) {
+export function mostrarResultado(nombre, promedio) {
+  console.log(`Hola, ${nombre}`);
   console.log("El promedio es: " + promedio);
   console.log("Resultado: " + analizaAprobacion(promedio));
 }
